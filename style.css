@@ -659,3 +659,62 @@ html, body{
     background-position: center; /* تتوسط */
     background-repeat: no-repeat;
 }
+@media (max-width: 768px) {
+
+  .hero .inner{
+    padding: 0 20px 4rem;
+  }
+
+  .hero h1{
+    font-size: clamp(2.8rem, 14vw, 4rem);
+    line-height: 1.15;
+  }
+
+  .hero .sub{
+    font-size: .9rem;
+    letter-spacing: .18em;
+    text-align: center;
+  }
+
+  .hero .date{
+    font-size: 1.3rem;
+    letter-spacing: .18em;
+    text-align: center;
+  }
+
+  .divider-gold{
+    text-align: center;
+  }
+
+  .divider-gold span{
+    display: inline-block;
+  }
+}@media (max-width: 768px) {
+
+  .doors-cta{
+    bottom: 4rem;
+    gap: 1rem;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .doors-cta .script{
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+
+  .open-btn{
+    position: static;
+    transform: none;
+    min-width: auto;
+    width: 100%;
+    max-width: 240px;
+    margin-top: .5rem;
+    padding: 12px 20px;
+    font-size: .95rem;
+  }
+
+  .open-btn:hover{
+    transform: translateY(-2px);
+  }
+}
